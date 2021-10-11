@@ -88,6 +88,7 @@ In the `mysql section` of the `application.yml` from the [Configuration reposito
 the host and port of your MySQL JDBC connection string. 
 
 ## Custom metrics monitoring
+.
 
 Grafana and Prometheus are included in the `docker-compose.yml` configuration, and the public facing applications
 have been instrumented with [MicroMeter](https://micrometer.io) to collect JVM and custom business metrics.
